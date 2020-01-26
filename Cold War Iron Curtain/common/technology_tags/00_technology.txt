@@ -430,6 +430,7 @@ technology_folders = {
 	rocket_folder = {
 		ledger = air
 	}
+	space_propulsion_folder
 	#apotheosis_folder
 }
 
