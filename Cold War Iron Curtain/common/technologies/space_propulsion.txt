@@ -1,0 +1,129 @@
+technologies = {
+
+	liquid_propellent_rocket = {
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 0 }
+		}
+		categories = {
+			space_chemical_rockets
+		}
+
+		path = {
+			leads_to_tech = hybrid_propellent_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	hybrid_propellent_rocket = {
+		research_cost = 1
+		start_year = 1950
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			space_chemical_rockets
+		}
+
+		path = {
+			leads_to_tech = solid_propellent_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	solid_propellent_rocket = {
+		research_cost = 1
+		start_year = 1958
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 14}
+		}
+		categories = {
+			space_chemical_rockets
+		}
+
+		path = {
+			leads_to_tech = cryogenic_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	cryogenic_rocket = {
+		research_cost = 1
+		start_year = 1966
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 22 }
+		}
+		categories = {
+			space_chemical_rockets
+		}
+		path = {
+			leads_to_tech = dual_mode_propulsion_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	dual_mode_propulsion_rocket = {
+		research_cost = 1
+		start_year = 1974
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 30 }
+		}
+		categories = {
+			space_chemical_rockets
+		}
+		path = {
+			leads_to_tech = tri_propellent_rockets
+			research_cost_coeff = 1
+		}
+	}
+
+	tri_propellent_rockets = {
+		research_cost = 1
+		start_year = 1982
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 38 }
+		}
+		categories = {
+			space_chemical_rockets
+		}
+		path = {
+			leads_to_tech = variable_thrust_solid_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	variable_thrust_solid_rocket = {
+		research_cost = 1
+		start_year = 1990
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 46 }
+		}
+		categories = {
+			space_chemical_rockets
+		}
+		path = {
+			leads_to_tech = pre_cooled_air_breathing_rocket_engines
+			research_cost_coeff = 1
+		}
+	}
+
+	pre_cooled_air_breathing_rocket_engines = {
+		research_cost = 1
+		start_year = 1998
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 54 }
+		}
+		categories = {
+			space_chemical_rockets
+		}
+	}
+}

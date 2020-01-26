@@ -119,6 +119,7 @@ technology_categories = {
 	space_saturn
 	space_colonization
 	space_station
+	space_chemical_rockets
 
 ###MILITARY RESEARCH###
 
