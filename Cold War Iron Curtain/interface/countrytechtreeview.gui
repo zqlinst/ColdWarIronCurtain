@@ -12911,7 +12911,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_space_propulsion_folder_item"
-		position = { x=0 y=5 }
+		position = { x=-55 y=35 }
 		size = { width = 182 height = 84 }
 		clipping = no
 
@@ -12929,15 +12929,15 @@ guiTypes = {
 			text = ""
 			maxWidth = 166
 			maxHeight = 20
-			fixedsize = yes
+			fixedsize = no
 			format = center
 		}
 
 		iconType = {
 			name = "Icon"
-			position = { x=92 y=33 }
+			position = { x=1 y=1 }
 			spriteType = "GFX_technology_medium"
-			centerposition = yes
+			centerposition = no
 			alwaystransparent = yes
 		}
 		iconType = {
@@ -12955,6 +12955,61 @@ guiTypes = {
 			maxWidth = 50
 			maxHeight = 20
 			format = right
+		}
+		containerWindowType = {
+			name = "sub_technology_slot_0"
+			position = { x=141 y=1 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+			
+			iconType = {
+				name = "picture"
+				position = { x=2 y=2 }
+				spriteType = "GFX_subtech_rocket"
+				alwaystransparent = yes
+			}
+		}		
+		containerWindowType = {
+			name = "sub_technology_slot_1"
+			position = { x=141 y=28 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+			
+			iconType = {
+				name = "picture"
+				position = { x=1 y=2 }
+				spriteType = "GFX_subtech_art"
+				alwaystransparent = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "sub_technology_slot_2"
+			position = { x=141 y=55 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+		
+			iconType = {
+				name = "picture"
+				position = { x=1 y=2 }
+				spriteType = "GFX_subtech_aa"
+				alwaystransparent = yes
+			}
 		}
 	}
 
