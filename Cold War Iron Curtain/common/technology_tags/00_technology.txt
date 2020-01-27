@@ -124,6 +124,10 @@ technology_categories = {
 	space_electromagnetic_propulsion
 	space_electrostatic_propulsion
 	space_electrothermal_propulsion
+	space_nuclear_rockets
+	space_nuclear_pulse_propulsion
+	space_nuclear_thermal_rockets
+	space_fission_fragment_propulsion
 
 ###MILITARY RESEARCH###
 

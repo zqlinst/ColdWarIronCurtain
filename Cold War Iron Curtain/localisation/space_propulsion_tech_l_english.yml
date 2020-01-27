@@ -46,3 +46,7 @@ wakefield_electron_beam_desc:0 "By using femtosecond laser pulses to strip elect
 microwave_electrothermal_thruster:0 "Microwave Electrothermal Thruster"
 microwave_electrothermal_thruster_short:0 "MET"
 microwave_electrothermal_thruster_desc:0 "By using microwaves to heat up propellant, we can use ordinary water as a fuel for our low-thrust rocket engines."
+nuclear_pulse_propulsion:0 "Nuclear Pulse Propulsion"
+nuclear_pulse_propulsion_desc:0 "By harnessing the power of nuclear explosions, we can create an entirely new class of spacecraft, capable of lifting much more mass to orbit than anything previously considered."
+nuclear_pulse_sail_propulsion:0 "Nuclear Pulse Sail Propulsion"
+nuclear_pulse_sail_propulsion_desc:0 "By capturing more of the nuclear explosion with a large sail, we can further improve the capabilities of nuclear propulsion rocket designs."

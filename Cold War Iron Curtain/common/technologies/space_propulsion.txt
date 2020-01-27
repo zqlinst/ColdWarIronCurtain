@@ -318,4 +318,34 @@ technologies = {
 			space_electrothermal_propulsion
 		}
 	}
+
+	nuclear_pulse_propulsion = {
+		research_cost = 1
+		start_year = 1964
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 20 }
+		}
+		categories = {
+			space_nuclear_rockets
+			space_nuclear_pulse_propulsion
+		}
+		path = {
+			leads_to_tech = nuclear_pulse_sail_propulsion
+			research_cost_coeff = 1
+		}
+	}
+
+	nuclear_pulse_sail_propulsion = {
+		research_cost = 1
+		start_year = 2012
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 68 }
+		}
+		categories = {
+			space_nuclear_rockets
+			space_nuclear_pulse_propulsion
+		}
+	}
 }
