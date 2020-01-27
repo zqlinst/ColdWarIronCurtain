@@ -704,7 +704,8 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_technology_mtgnavalfolder_researched_item_bg"
 		textureFile = "gfx//interface//techtree//technology_researched_item_bg.dds"
-	}
+	}	
+	
 ##### mtgnavallargefolder #####
 	spriteType = {
 		name = "GFX_technology_mtgnavallargefolder_small_unavailable_item_bg"
@@ -806,8 +807,63 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_technology_mtgnavalmodulefolder_researched_item_bg"
 		textureFile = "gfx//interface//techtree//tech_naval_researched_item_bg.dds"
+	}	
+##### SPACE #####
+#PROPULSION#
+
+	spriteType = {
+		name = "GFX_technology_space_propulsion_folder_small_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_unavailable_item_bg.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_technology_space_propulsion_folder_small_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_available_item_bg.dds"
 	}
 	
+	spriteType = {
+		name = "GFX_technology_space_propulsion_folder_small_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_researched_item_bg.dds"
+	}
+
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_space_propulsion_folder_small_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	frameAnimatedSpriteType = {
+		name = "GFX_technology_space_propulsion_folder_currently_researching_item_bg"
+		texturefile = "gfx//interface//researching_anim_strip.dds"
+		noOfFrames = 9
+		loadType = "INGAME"
+		transparencecheck = yes
+		animation_rate_fps = 15
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+	}
+	
+	spriteType = {
+		name = "GFX_technology_space_propulsion_folder_available_item_bg"
+		textureFile = "gfx//interface//techtree//technology_available_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_space_propulsion_folder_unavailable_item_bg"
+		textureFile = "gfx//interface//techtree//technology_unavailable_item_bg.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_technology_space_propulsion_folder_researched_item_bg"
+		textureFile = "gfx//interface//techtree//technology_researched_item_bg.dds"
+	}
 
 	##### infantry tech ######	# infantry has a special small override	
 	
