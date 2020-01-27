@@ -190,4 +190,68 @@ technologies = {
 			space_electric_propulsion
 		}
 	}
+
+	gridded_ion_thruster = {
+		research_cost = 1
+		start_year = 1962
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 18 }
+		}
+		categories = {
+			space_electric_propulsion
+			space_electrostatic_propulsion
+		}
+		path = {
+			leads_to_tech = hall_effect_thruster
+			research_cost_coeff = 1
+		}
+	}
+
+	hall_effect_thruster = {
+		research_cost = 1
+		start_year = 1978
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 34 }
+		}
+		categories = {
+			space_electric_propulsion
+			space_electrostatic_propulsion
+		}
+		path = {
+			leads_to_tech = advanced_gridded_ion_thruster
+			research_cost_coeff = 1
+		}
+	}
+
+	advanced_gridded_ion_thruster = {
+		research_cost = 1
+		start_year = 1994
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 50 }
+		}
+		categories = {
+			space_electric_propulsion
+			space_electrostatic_propulsion
+		}
+		path = {
+			leads_to_tech = field_emission_electric_propulsion
+			research_cost_coeff = 1
+		}
+	}
+
+	field_emission_electric_propulsion = {
+		research_cost = 1
+		start_year = 2010
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 66 }
+		}
+		categories = {
+			space_electric_propulsion
+			space_electrostatic_propulsion
+		}
+	}
 }
