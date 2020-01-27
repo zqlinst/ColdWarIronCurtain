@@ -16,3 +16,5 @@
  variable_thrust_solid_rocket_desc:0 "By modifying the internal structure of solid rocket fuels, we can create a solid rocket with crude forms of thrust control, extending the range of solid rocket designs."
  pre_cooled_air_breathing_rocket_engines:0 "Pre-cooled Air Breathing Rocket Engines"
  pre_cooled_air_breathing_rocket_engines_desc:0 "By using liquid hydrogen and ram compression, we can separate and cool oxygen from the atmosphere, significantly reducing the weight required for launch and thus dramatically reduce the cost and increase the range of our rocket designs."
+space_propulsion_folder:0 "Space Propulsion"
+space_propulsion_folder_desc:0 "Research related to developing methods of propulsion for spacecraft."
