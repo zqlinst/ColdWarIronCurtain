@@ -120,6 +120,10 @@ technology_categories = {
 	space_colonization
 	space_station
 	space_chemical_rockets
+	space_electric_propulsion
+	space_electromagnetic_propulsion
+	space_electrostatic_propulsion
+	space_electrothermal_propulsion
 
 ###MILITARY RESEARCH###
 

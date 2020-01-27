@@ -126,4 +126,68 @@ technologies = {
 			space_chemical_rockets
 		}
 	}
+
+	pulsed_plasma_thruster = {
+		research_cost = 1
+		start_year = 1960
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 16 }
+		}
+		categories = {
+			space_electromagnetic_propulsion
+			space_electric_propulsion
+		}
+		path = {
+			leads_to_tech = pulsed_inductive_thruster
+			research_cost_coeff = 1
+		}
+	}
+
+	pulsed_inductive_thruster = {
+		research_cost = 1
+		start_year = 1976
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 32 }
+		}
+		categories = {
+			space_electromagnetic_propulsion
+			space_electric_propulsion
+		}
+		path = {
+			leads_to_tech = magnetoplasmadynamic_thruster
+			research_cost_coeff = 1
+		}
+	}
+
+	magnetoplasmadynamic_thruster = {
+		research_cost = 1
+		start_year = 1992
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 48 }
+		}
+		categories = {
+			space_electromagnetic_propulsion
+			space_electric_propulsion
+		}
+		path = {
+			leads_to_tech = vasimr
+			research_cost_coeff = 1
+		}
+	}
+
+	vasimr = {
+		research_cost = 1
+		start_year = 2008
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 64 }
+		}
+		categories = {
+			space_electromagnetic_propulsion
+			space_electric_propulsion
+		}
+	}
 }
