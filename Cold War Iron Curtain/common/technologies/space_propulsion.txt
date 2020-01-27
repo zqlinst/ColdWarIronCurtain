@@ -348,4 +348,166 @@ technologies = {
 			space_nuclear_pulse_propulsion
 		}
 	}
+
+	solid_core_nuclear_thermal_rocket = {
+		research_cost = 1
+		start_year = 1968
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 24 }
+		}
+		categories = {
+			space_nuclear_rockets
+			space_nuclear_thermal_rockets
+		}
+		path = {
+			leads_to_tech = bimodal_reactor
+			research_cost_coeff = 1
+		}
+	}
+
+	bimodal_reactor = {
+		research_cost = 1
+		start_year = 1974
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 30 }
+		}
+		categories = {
+			space_nuclear_rockets
+			space_nuclear_thermal_rockets
+		}
+		path = {
+			leads_to_tech = pebble_bed_solid_core_nuclear_thermal_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	pebble_bed_solid_core_nuclear_thermal_rocket = {
+		research_cost = 1
+		start_year = 1976
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 32 }
+		}
+		categories = {
+			space_nuclear_rockets
+			space_nuclear_thermal_rockets
+		}
+		path = {
+			leads_to_tech = liquid_core_nuclear_thermal_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	liquid_core_nuclear_thermal_rocket = {
+		research_cost = 1
+		start_year = 1984
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 40 }
+		}
+		categories = {
+			space_nuclear_rockets
+			space_nuclear_thermal_rockets
+		}
+		path = {
+			leads_to_tech = droplet_core_nuclear_thermal_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	droplet_core_nuclear_thermal_rocket = {
+		research_cost = 1
+		start_year = 1992
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 48}
+		}
+		categories = {
+			space_nuclear_rockets
+			space_nuclear_thermal_rockets
+		}
+		path = {
+			leads_to_tech = vapor_core_nuclear_thermal_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	vapor_core_nuclear_thermal_rocket = {
+		research_cost = 1
+		start_year = 2000
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 56 }
+		}
+		categories = {
+			space_nuclear_rockets
+			space_nuclear_thermal_rockets
+		}
+		path = {
+			leads_to_tech = closed_cycle_nuclear_thermal_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	closed_cycle_nuclear_thermal_rocket = {
+		research_cost = 1
+		start_year = 2008
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 64 }
+		}
+		categories = {
+			space_nuclear_rockets
+			space_nuclear_thermal_rockets
+		}
+		path = {
+			leads_to_tech = open_cycle_nuclear_thermal_rocket
+			research_cost_coeff = 1
+		}
+	}
+
+	open_cycle_nuclear_thermal_rocket = {
+		research_cost = 1
+		start_year = 2016
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 72 }
+		}
+		categories = {
+			space_nuclear_rockets
+			space_nuclear_thermal_rockets
+		}
+	}
+
+	fission_fragment = {
+		research_cost = 1
+		start_year = 1988
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 44}
+		}
+		categories = {
+			space_nuclear_rockets
+			space_fission_fragment_propulsion
+		}
+		path = {
+			leads_to_tech = dusty_plasma_fission_fragment
+			research_cost_coeff = 1
+		}
+	}
+
+	dusty_plasma_fission_fragment = {
+		research_cost = 1
+		start_year = 2012
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 68}
+		}
+		categories = {
+			space_nuclear_rockets
+			space_fission_fragment_propulsion
+		}
+	}
 }
