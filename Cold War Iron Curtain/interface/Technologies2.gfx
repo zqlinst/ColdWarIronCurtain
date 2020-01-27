@@ -5,6 +5,56 @@ spriteTypes = {
 	}
 
 	#################################################################################################################################################################
+	# Space Propulsion Techs
+	#################################################################################################################################################################
+
+	spriteType = {
+		name = "GFX_space_propulsion_folder_tab"
+		textureFile = "gfx/interface/techtree_space_tab.dds"
+		noOfFrames = 2		
+	}
+
+	spriteType = {
+		name = "GFX_liquid_propellant_rocket_medium"
+		textureFile = "gfx/interface/technologies/space/liquid_propellant_rocket.dds"
+	}
+
+	spriteType = {
+		name = "GFX_hybrid_propellant_rocket_medium"
+		textureFile = "gfx/interface/technologies/space/hybrid_propellant_rocket.dds"
+	}
+
+	spriteType = {
+		name = "GFX_solid_propellant_rocket_medium"
+		textureFile = "gfx/interface/technologies/space/solid_propellant_rocket.dds"
+	}
+
+	spriteType = {
+		name = "GFX_cryogenic_rocket_medium"
+		textureFile = "gfx/interface/technologies/space/cryogenic_rocket.dds"
+	}
+
+	spriteType = {
+		name = "GFX_dual_mode_propellant_rocket_medium"
+		textureFile = "gfx/interface/technologies/space/dual_mode_propellant_rocket.dds"
+	}
+
+	spriteType = {
+		name = "GFX_tri_propellant_rocket_medium"
+		textureFile = "gfx/interface/technologies/space/tri_propellent_rocket.dds"
+	}
+
+	spriteType = {
+		name = "GFX_variable_thrust_solid_rocket_medium"
+		textureFile = "gfx/interface/technologies/space/variable_thrust_solid_rocket.dds"
+	}
+
+	spriteType = {
+		name = "GFX_pre_cooled_air_breathing_rocket_engines_medium"
+		textureFile = "gfx/interface/technologies/space/pre_cooled_air_breathing_rocket_engines.dds"
+	}
+
+	#################################################################################################################################################################
 	# Space Race Techs
 	#################################################################################################################################################################
 

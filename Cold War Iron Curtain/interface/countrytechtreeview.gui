@@ -11530,7 +11530,7 @@ guiTypes = {
 			buttonType = {
 				position = { x = 1510 y = 0 }
 				name = "space_propulsion_folder_tab"
-				quadTextureSprite = "GFX_space_folder_tab"
+				quadTextureSprite = "GFX_space_propulsion_folder_tab"
 				frame = 1
 				clicksound = click_default
 			}
