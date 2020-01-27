@@ -50,7 +50,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "liquid_propellent_rocket_tree"
+				name = "liquid_propellant_rocket_tree"
 				position = { x=280 y=107 }
 				size = { width = 680 height = 800 }
 				slotsize = { width=70 height= 70 }

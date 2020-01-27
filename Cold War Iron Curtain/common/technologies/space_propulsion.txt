@@ -1,6 +1,6 @@
 technologies = {
 
-	liquid_propellent_rocket = {
+	liquid_propellant_rocket = {
 		research_cost = 1
 		start_year = 1944
 		folder = {
@@ -12,12 +12,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = hybrid_propellent_rocket
+			leads_to_tech = hybrid_propellant_rocket
 			research_cost_coeff = 1
 		}
 	}
 
-	hybrid_propellent_rocket = {
+	hybrid_propellant_rocket = {
 		research_cost = 1
 		start_year = 1950
 		folder = {
@@ -29,12 +29,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = solid_propellent_rocket
+			leads_to_tech = solid_propellant_rocket
 			research_cost_coeff = 1
 		}
 	}
 
-	solid_propellent_rocket = {
+	solid_propellant_rocket = {
 		research_cost = 1
 		start_year = 1958
 		folder = {
@@ -78,12 +78,12 @@ technologies = {
 			space_chemical_rockets
 		}
 		path = {
-			leads_to_tech = tri_propellent_rockets
+			leads_to_tech = tri_propellant_rockets
 			research_cost_coeff = 1
 		}
 	}
 
-	tri_propellent_rockets = {
+	tri_propellant_rockets = {
 		research_cost = 1
 		start_year = 1982
 		folder = {
