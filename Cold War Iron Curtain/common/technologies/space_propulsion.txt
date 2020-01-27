@@ -254,4 +254,68 @@ technologies = {
 			space_electrostatic_propulsion
 		}
 	}
+
+	resistojet_thruster = {
+		research_cost = 1
+		start_year = 1964
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 20}
+		}
+		categories = {
+			space_electric_propulsion
+			space_electrothermal_propulsion
+		}
+		path = {
+			leads_to_tech = arcjet_thruster
+			research_cost_coeff = 1
+		}
+	}
+
+	arcjet_thruster = {
+		research_cost = 1
+		start_year = 1980
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 36 }
+		}
+		categories = {
+			space_electric_propulsion
+			space_electrothermal_propulsion
+		}
+		path = {
+			leads_to_tech = wakefield_electron_beam
+			research_cost_coeff = 1
+		}
+	}
+
+	wakefield_electron_beam = {
+		research_cost = 1
+		start_year = 1996
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 52 }
+		}
+		categories = {
+			space_electric_propulsion
+			space_electrothermal_propulsion
+		}
+		path = {
+			leads_to_tech = microwave_electrothermal_thruster
+			research_cost_coeff = 1
+		}
+	}
+
+	microwave_electrothermal_thruster = {
+		research_cost = 1
+		start_year = 2012
+		folder = {
+			name = space_propulsion_folder
+			position = { x = 0 y = 68 }
+		}
+		categories = {
+			space_electric_propulsion
+			space_electrothermal_propulsion
+		}
+	}
 }

@@ -73,6 +73,14 @@ guiTypes = {
 				format = "UP"
 			}
 
+			gridboxtype = {
+				name = "resistojet_thruster_tree"
+				position = { x = 1060 y = 107 }
+				size = { width = 680 height = 800 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
 			containerWindowType = {
 				name = "space_propulsion_year"
 				position = {x = 20 y = 130 }
