@@ -49,6 +49,14 @@ technologies = {
 			leads_to_tech = space_chemical_rocket_iv
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = space_electromagnetic_thruster_i
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = space_nuclear_thermal_rocket_i
+			research_cost_coeff = 1
+		}
 	}
 
 	space_chemical_rocket_iv = {
@@ -132,7 +140,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 16 }
+			position = { x = 3 y = 16 }
 		}
 		categories = {
 			space_electromagnetic_propulsion
@@ -142,6 +150,14 @@ technologies = {
 			leads_to_tech = space_electromagnetic_thruster_ii
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = space_electrostatic_thruster_i
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = space_nuclear_pulse_propulsion_i
+			research_cost_coeff = 1
+		}
 	}
 
 	space_electromagnetic_thruster_ii = {
@@ -149,7 +165,7 @@ technologies = {
 		start_year = 1976
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 32 }
+			position = { x = 3 y = 32 }
 		}
 		categories = {
 			space_electromagnetic_propulsion
@@ -166,7 +182,7 @@ technologies = {
 		start_year = 1992
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 48 }
+			position = { x = 3 y = 48 }
 		}
 		categories = {
 			space_electromagnetic_propulsion
@@ -183,7 +199,7 @@ technologies = {
 		start_year = 2008
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 64 }
+			position = { x = 3 y = 64 }
 		}
 		categories = {
 			space_electromagnetic_propulsion
@@ -196,7 +212,7 @@ technologies = {
 		start_year = 1962
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 18 }
+			position = { x = 6 y = 18 }
 		}
 		categories = {
 			space_electric_propulsion
@@ -206,6 +222,10 @@ technologies = {
 			leads_to_tech = space_electrostatic_thruster_ii
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = space_electrothermal_thruster_i
+			research_cost_coeff = 1
+		}
 	}
 
 	space_electrostatic_thruster_ii = {
@@ -213,7 +233,7 @@ technologies = {
 		start_year = 1978
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 34 }
+			position = { x = 6 y = 34 }
 		}
 		categories = {
 			space_electric_propulsion
@@ -230,7 +250,7 @@ technologies = {
 		start_year = 1994
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 50 }
+			position = { x = 6 y = 50 }
 		}
 		categories = {
 			space_electric_propulsion
@@ -247,7 +267,7 @@ technologies = {
 		start_year = 2010
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 66 }
+			position = { x = 6 y = 66 }
 		}
 		categories = {
 			space_electric_propulsion
@@ -260,7 +280,7 @@ technologies = {
 		start_year = 1964
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 20}
+			position = { x = 9 y = 20}
 		}
 		categories = {
 			space_electric_propulsion
@@ -277,7 +297,7 @@ technologies = {
 		start_year = 1980
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 36 }
+			position = { x = 9 y = 36 }
 		}
 		categories = {
 			space_electric_propulsion
@@ -294,7 +314,7 @@ technologies = {
 		start_year = 1996
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 52 }
+			position = { x = 9 y = 52 }
 		}
 		categories = {
 			space_electric_propulsion
@@ -311,7 +331,7 @@ technologies = {
 		start_year = 2012
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 68 }
+			position = { x = 9 y = 68 }
 		}
 		categories = {
 			space_electric_propulsion
@@ -324,7 +344,7 @@ technologies = {
 		start_year = 1964
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 20 }
+			position = { x = 12 y = 20 }
 		}
 		categories = {
 			space_nuclear_rockets
@@ -334,6 +354,9 @@ technologies = {
 			leads_to_tech = space_nuclear_pulse_propulsion_ii
 			research_cost_coeff = 1
 		}
+		dependencies = {
+			nukes = 1
+		}
 	}
 
 	space_nuclear_pulse_propulsion_ii = {
@@ -341,7 +364,7 @@ technologies = {
 		start_year = 2012
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 68 }
+			position = { x = 12 y = 68 }
 		}
 		categories = {
 			space_nuclear_rockets
@@ -354,7 +377,7 @@ technologies = {
 		start_year = 1968
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 24 }
+			position = { x = 15 y = 24 }
 		}
 		categories = {
 			space_nuclear_rockets
@@ -364,6 +387,9 @@ technologies = {
 			leads_to_tech = space_nuclear_thermal_rocket_ii
 			research_cost_coeff = 1
 		}
+		dependencies = {
+			nuclear_reactor62 = 1
+		}
 	}
 
 	space_nuclear_thermal_rocket_ii = {
@@ -371,7 +397,7 @@ technologies = {
 		start_year = 1974
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 30 }
+			position = { x = 15 y = 30 }
 		}
 		categories = {
 			space_nuclear_rockets
@@ -388,7 +414,7 @@ technologies = {
 		start_year = 1976
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 32 }
+			position = { x = 15 y = 32 }
 		}
 		categories = {
 			space_nuclear_rockets
@@ -398,6 +424,10 @@ technologies = {
 			leads_to_tech = space_nuclear_thermal_rocket_iv
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = space_fission_fragment_i
+			research_cost_coeff = 1
+		}
 	}
 
 	space_nuclear_thermal_rocket_iv = {
@@ -405,7 +435,7 @@ technologies = {
 		start_year = 1984
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 40 }
+			position = { x = 15 y = 40 }
 		}
 		categories = {
 			space_nuclear_rockets
@@ -422,7 +452,7 @@ technologies = {
 		start_year = 1992
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 48}
+			position = { x = 15 y = 48}
 		}
 		categories = {
 			space_nuclear_rockets
@@ -439,7 +469,7 @@ technologies = {
 		start_year = 2000
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 56 }
+			position = { x = 15 y = 56 }
 		}
 		categories = {
 			space_nuclear_rockets
@@ -456,7 +486,7 @@ technologies = {
 		start_year = 2008
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 64 }
+			position = { x = 15 y = 64 }
 		}
 		categories = {
 			space_nuclear_rockets
@@ -473,7 +503,7 @@ technologies = {
 		start_year = 2016
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 72 }
+			position = { x = 15 y = 72 }
 		}
 		categories = {
 			space_nuclear_rockets
@@ -486,7 +516,7 @@ technologies = {
 		start_year = 1988
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 44}
+			position = { x = 18 y = 44}
 		}
 		categories = {
 			space_nuclear_rockets
@@ -496,6 +526,9 @@ technologies = {
 			leads_to_tech = space_fission_fragment_ii
 			research_cost_coeff = 1
 		}
+		dependencies = {
+			fission1966 = 1
+		}
 	}
 
 	space_fission_fragment_ii = {
@@ -503,7 +536,7 @@ technologies = {
 		start_year = 2012
 		folder = {
 			name = space_propulsion_folder
-			position = { x = 0 y = 68}
+			position = { x = 18 y = 68}
 		}
 		categories = {
 			space_nuclear_rockets
