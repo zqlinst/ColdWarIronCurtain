@@ -1,6 +1,6 @@
 technologies = {
 
-	liquid_propellant_rocket = {
+	space_chemical_rocket_i = {
 		research_cost = 1
 		start_year = 1944
 		folder = {
@@ -12,12 +12,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = hybrid_propellant_rocket
+			leads_to_tech = space_chemical_rocket_ii
 			research_cost_coeff = 1
 		}
 	}
 
-	hybrid_propellant_rocket = {
+	space_chemical_rocket_ii = {
 		research_cost = 1
 		start_year = 1950
 		folder = {
@@ -29,12 +29,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = solid_propellant_rocket
+			leads_to_tech = space_chemical_rocket_iii
 			research_cost_coeff = 1
 		}
 	}
 
-	solid_propellant_rocket = {
+	space_chemical_rocket_iii = {
 		research_cost = 1
 		start_year = 1958
 		folder = {
@@ -46,12 +46,12 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = cryogenic_rocket
+			leads_to_tech = space_chemical_rocket_iv
 			research_cost_coeff = 1
 		}
 	}
 
-	cryogenic_rocket = {
+	space_chemical_rocket_iv = {
 		research_cost = 1
 		start_year = 1966
 		folder = {
@@ -62,12 +62,12 @@ technologies = {
 			space_chemical_rockets
 		}
 		path = {
-			leads_to_tech = dual_mode_propulsion_rocket
+			leads_to_tech = space_chemical_rocket_v
 			research_cost_coeff = 1
 		}
 	}
 
-	dual_mode_propulsion_rocket = {
+	space_chemical_rocket_v = {
 		research_cost = 1
 		start_year = 1974
 		folder = {
@@ -78,12 +78,12 @@ technologies = {
 			space_chemical_rockets
 		}
 		path = {
-			leads_to_tech = tri_propellant_rockets
+			leads_to_tech = space_chemical_rocket_vi
 			research_cost_coeff = 1
 		}
 	}
 
-	tri_propellant_rockets = {
+	space_chemical_rocket_vi = {
 		research_cost = 1
 		start_year = 1982
 		folder = {
@@ -94,12 +94,12 @@ technologies = {
 			space_chemical_rockets
 		}
 		path = {
-			leads_to_tech = variable_thrust_solid_rocket
+			leads_to_tech = space_chemical_rocket_vii
 			research_cost_coeff = 1
 		}
 	}
 
-	variable_thrust_solid_rocket = {
+	space_chemical_rocket_vii = {
 		research_cost = 1
 		start_year = 1990
 		folder = {
@@ -110,12 +110,12 @@ technologies = {
 			space_chemical_rockets
 		}
 		path = {
-			leads_to_tech = pre_cooled_air_breathing_rocket_engines
+			leads_to_tech = space_chemical_rocket_viii
 			research_cost_coeff = 1
 		}
 	}
 
-	pre_cooled_air_breathing_rocket_engines = {
+	space_chemical_rocket_viii = {
 		research_cost = 1
 		start_year = 1998
 		folder = {
@@ -127,7 +127,7 @@ technologies = {
 		}
 	}
 
-	pulsed_plasma_thruster = {
+	space_electromagnetic_thruster_i = {
 		research_cost = 1
 		start_year = 1960
 		folder = {
@@ -139,12 +139,12 @@ technologies = {
 			space_electric_propulsion
 		}
 		path = {
-			leads_to_tech = pulsed_inductive_thruster
+			leads_to_tech = space_electromagnetic_thruster_ii
 			research_cost_coeff = 1
 		}
 	}
 
-	pulsed_inductive_thruster = {
+	space_electromagnetic_thruster_ii = {
 		research_cost = 1
 		start_year = 1976
 		folder = {
@@ -156,12 +156,12 @@ technologies = {
 			space_electric_propulsion
 		}
 		path = {
-			leads_to_tech = magnetoplasmadynamic_thruster
+			leads_to_tech = space_electromagnetic_thruster_iii
 			research_cost_coeff = 1
 		}
 	}
 
-	magnetoplasmadynamic_thruster = {
+	space_electromagnetic_thruster_iii = {
 		research_cost = 1
 		start_year = 1992
 		folder = {
@@ -173,12 +173,12 @@ technologies = {
 			space_electric_propulsion
 		}
 		path = {
-			leads_to_tech = vasimr
+			leads_to_tech = space_electromagnetic_thruster_iv
 			research_cost_coeff = 1
 		}
 	}
 
-	vasimr = {
+	space_electromagnetic_thruster_iv = {
 		research_cost = 1
 		start_year = 2008
 		folder = {
@@ -191,7 +191,7 @@ technologies = {
 		}
 	}
 
-	gridded_ion_thruster = {
+	space_electrostatic_thruster_i = {
 		research_cost = 1
 		start_year = 1962
 		folder = {
@@ -203,12 +203,12 @@ technologies = {
 			space_electrostatic_propulsion
 		}
 		path = {
-			leads_to_tech = hall_effect_thruster
+			leads_to_tech = space_electrostatic_thruster_ii
 			research_cost_coeff = 1
 		}
 	}
 
-	hall_effect_thruster = {
+	space_electrostatic_thruster_ii = {
 		research_cost = 1
 		start_year = 1978
 		folder = {
@@ -220,12 +220,12 @@ technologies = {
 			space_electrostatic_propulsion
 		}
 		path = {
-			leads_to_tech = advanced_gridded_ion_thruster
+			leads_to_tech = space_electrostatic_thruster_iii
 			research_cost_coeff = 1
 		}
 	}
 
-	advanced_gridded_ion_thruster = {
+	space_electrostatic_thruster_iii = {
 		research_cost = 1
 		start_year = 1994
 		folder = {
@@ -237,12 +237,12 @@ technologies = {
 			space_electrostatic_propulsion
 		}
 		path = {
-			leads_to_tech = field_emission_electric_propulsion
+			leads_to_tech = space_electrostatic_thruster_iv
 			research_cost_coeff = 1
 		}
 	}
 
-	field_emission_electric_propulsion = {
+	space_electrostatic_thruster_iv = {
 		research_cost = 1
 		start_year = 2010
 		folder = {
@@ -255,7 +255,7 @@ technologies = {
 		}
 	}
 
-	resistojet_thruster = {
+	space_electrothermal_thruster_i = {
 		research_cost = 1
 		start_year = 1964
 		folder = {
@@ -267,12 +267,12 @@ technologies = {
 			space_electrothermal_propulsion
 		}
 		path = {
-			leads_to_tech = arcjet_thruster
+			leads_to_tech = space_electrothermal_thruster_ii
 			research_cost_coeff = 1
 		}
 	}
 
-	arcjet_thruster = {
+	space_electrothermal_thruster_ii = {
 		research_cost = 1
 		start_year = 1980
 		folder = {
@@ -284,12 +284,12 @@ technologies = {
 			space_electrothermal_propulsion
 		}
 		path = {
-			leads_to_tech = wakefield_electron_beam
+			leads_to_tech = space_electrothermal_thruster_iii
 			research_cost_coeff = 1
 		}
 	}
 
-	wakefield_electron_beam = {
+	space_electrothermal_thruster_iii = {
 		research_cost = 1
 		start_year = 1996
 		folder = {
@@ -301,12 +301,12 @@ technologies = {
 			space_electrothermal_propulsion
 		}
 		path = {
-			leads_to_tech = microwave_electrothermal_thruster
+			leads_to_tech = space_electrothermal_thruster_iv
 			research_cost_coeff = 1
 		}
 	}
 
-	microwave_electrothermal_thruster = {
+	space_electrothermal_thruster_iv = {
 		research_cost = 1
 		start_year = 2012
 		folder = {
@@ -319,7 +319,7 @@ technologies = {
 		}
 	}
 
-	nuclear_pulse_propulsion = {
+	space_nuclear_pulse_propulsion_i = {
 		research_cost = 1
 		start_year = 1964
 		folder = {
@@ -331,12 +331,12 @@ technologies = {
 			space_nuclear_pulse_propulsion
 		}
 		path = {
-			leads_to_tech = nuclear_pulse_sail_propulsion
+			leads_to_tech = space_nuclear_pulse_propulsion_ii
 			research_cost_coeff = 1
 		}
 	}
 
-	nuclear_pulse_sail_propulsion = {
+	space_nuclear_pulse_propulsion_ii = {
 		research_cost = 1
 		start_year = 2012
 		folder = {
@@ -349,7 +349,7 @@ technologies = {
 		}
 	}
 
-	solid_core_nuclear_thermal_rocket = {
+	space_nuclear_thermal_rocket_i = {
 		research_cost = 1
 		start_year = 1968
 		folder = {
@@ -361,12 +361,12 @@ technologies = {
 			space_nuclear_thermal_rockets
 		}
 		path = {
-			leads_to_tech = bimodal_reactor
+			leads_to_tech = space_nuclear_thermal_rocket_ii
 			research_cost_coeff = 1
 		}
 	}
 
-	bimodal_reactor = {
+	space_nuclear_thermal_rocket_ii = {
 		research_cost = 1
 		start_year = 1974
 		folder = {
@@ -378,12 +378,12 @@ technologies = {
 			space_nuclear_thermal_rockets
 		}
 		path = {
-			leads_to_tech = pebble_bed_solid_core_nuclear_thermal_rocket
+			leads_to_tech = space_nuclear_thermal_rocket_iii
 			research_cost_coeff = 1
 		}
 	}
 
-	pebble_bed_solid_core_nuclear_thermal_rocket = {
+	space_nuclear_thermal_rocket_iii = {
 		research_cost = 1
 		start_year = 1976
 		folder = {
@@ -395,12 +395,12 @@ technologies = {
 			space_nuclear_thermal_rockets
 		}
 		path = {
-			leads_to_tech = liquid_core_nuclear_thermal_rocket
+			leads_to_tech = space_nuclear_thermal_rocket_iv
 			research_cost_coeff = 1
 		}
 	}
 
-	liquid_core_nuclear_thermal_rocket = {
+	space_nuclear_thermal_rocket_iv = {
 		research_cost = 1
 		start_year = 1984
 		folder = {
@@ -412,12 +412,12 @@ technologies = {
 			space_nuclear_thermal_rockets
 		}
 		path = {
-			leads_to_tech = droplet_core_nuclear_thermal_rocket
+			leads_to_tech = space_nuclear_thermal_rocket_v
 			research_cost_coeff = 1
 		}
 	}
 
-	droplet_core_nuclear_thermal_rocket = {
+	space_nuclear_thermal_rocket_v = {
 		research_cost = 1
 		start_year = 1992
 		folder = {
@@ -429,12 +429,12 @@ technologies = {
 			space_nuclear_thermal_rockets
 		}
 		path = {
-			leads_to_tech = vapor_core_nuclear_thermal_rocket
+			leads_to_tech = space_nuclear_thermal_rocket_vi
 			research_cost_coeff = 1
 		}
 	}
 
-	vapor_core_nuclear_thermal_rocket = {
+	space_nuclear_thermal_rocket_vi = {
 		research_cost = 1
 		start_year = 2000
 		folder = {
@@ -446,12 +446,12 @@ technologies = {
 			space_nuclear_thermal_rockets
 		}
 		path = {
-			leads_to_tech = closed_cycle_nuclear_thermal_rocket
+			leads_to_tech = space_nuclear_thermal_rocket_vii
 			research_cost_coeff = 1
 		}
 	}
 
-	closed_cycle_nuclear_thermal_rocket = {
+	space_nuclear_thermal_rocket_vii = {
 		research_cost = 1
 		start_year = 2008
 		folder = {
@@ -463,12 +463,12 @@ technologies = {
 			space_nuclear_thermal_rockets
 		}
 		path = {
-			leads_to_tech = open_cycle_nuclear_thermal_rocket
+			leads_to_tech = space_nuclear_thermal_rocket_viii
 			research_cost_coeff = 1
 		}
 	}
 
-	open_cycle_nuclear_thermal_rocket = {
+	space_nuclear_thermal_rocket_viii = {
 		research_cost = 1
 		start_year = 2016
 		folder = {
@@ -481,7 +481,7 @@ technologies = {
 		}
 	}
 
-	fission_fragment = {
+	space_fission_fragment_i = {
 		research_cost = 1
 		start_year = 1988
 		folder = {
@@ -493,12 +493,12 @@ technologies = {
 			space_fission_fragment_propulsion
 		}
 		path = {
-			leads_to_tech = dusty_plasma_fission_fragment
+			leads_to_tech = space_fission_fragment_ii
 			research_cost_coeff = 1
 		}
 	}
 
-	dusty_plasma_fission_fragment = {
+	space_fission_fragment_ii = {
 		research_cost = 1
 		start_year = 2012
 		folder = {

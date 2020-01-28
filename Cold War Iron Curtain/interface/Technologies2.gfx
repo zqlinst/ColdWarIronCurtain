@@ -15,42 +15,42 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_liquid_propellant_rocket_medium"
+		name = "GFX_space_chemical_rocket_i_medium"
 		textureFile = "gfx/interface/technologies/space/liquid_propellant_rocket.dds"
 	}
 
 	spriteType = {
-		name = "GFX_hybrid_propellant_rocket_medium"
+		name = "GFX_space_chemical_rocket_ii_medium"
 		textureFile = "gfx/interface/technologies/space/hybrid_propellant_rocket.dds"
 	}
 
 	spriteType = {
-		name = "GFX_solid_propellant_rocket_medium"
+		name = "GFX_space_chemical_rocket_iii_medium"
 		textureFile = "gfx/interface/technologies/space/solid_propellant_rocket.dds"
 	}
 
 	spriteType = {
-		name = "GFX_cryogenic_rocket_medium"
+		name = "GFX_space_chemical_rocket_iv_medium"
 		textureFile = "gfx/interface/technologies/space/cryogenic_rocket.dds"
 	}
 
 	spriteType = {
-		name = "GFX_dual_mode_propellant_rocket_medium"
+		name = "GFX_space_chemical_rocket_v_medium"
 		textureFile = "gfx/interface/technologies/space/dual_mode_propellant_rocket.dds"
 	}
 
 	spriteType = {
-		name = "GFX_tri_propellant_rocket_medium"
+		name = "GFX_space_chemical_rocket_vi_medium"
 		textureFile = "gfx/interface/technologies/space/tri_propellent_rocket.dds"
 	}
 
 	spriteType = {
-		name = "GFX_variable_thrust_solid_rocket_medium"
+		name = "GFX_space_chemical_rocket_vii_medium"
 		textureFile = "gfx/interface/technologies/space/variable_thrust_solid_rocket.dds"
 	}
 
 	spriteType = {
-		name = "GFX_pre_cooled_air_breathing_rocket_engines_medium"
+		name = "GFX_space_chemical_rocket_viii_medium"
 		textureFile = "gfx/interface/technologies/space/pre_cooled_air_breathing_rocket_engines.dds"
 	}
 

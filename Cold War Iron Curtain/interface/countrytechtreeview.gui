@@ -50,7 +50,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "liquid_propellant_rocket_tree"
+				name = "space_chemical_rocket_i_tree"
 				position = { x = 280 y = 107 }
 				size = { width = 680 height = 800 }
 				slotsize = { width=70 height= 70 }
@@ -58,7 +58,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "pulsed_plasma_thruster_tree"
+				name = "space_electromagnetic_thruster_i_tree"
 				position = { x = 540 y = 107 }
 				size = { width = 680 height = 800 }
 				slotsize = { width = 70 height = 70 }
@@ -66,7 +66,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "gridded_ion_thruster_tree"
+				name = "space_electrostatic_thruster_i_tree"
 				position = { x = 800 y = 107 }
 				size = { width = 680 height = 800 }
 				slotsize = { width = 70 height = 70 }
@@ -74,7 +74,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "resistojet_thruster_tree"
+				name = "space_electrothermal_thruster_i_tree"
 				position = { x = 1060 y = 107 }
 				size = { width = 680 height = 800 }
 				slotsize = { width = 70 height = 70 }
@@ -82,7 +82,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "nuclear_pulse_propulsion_tree"
+				name = "space_nuclear_pulse_propulsion_i_tree"
 				position = { x = 1320 y = 107 }
 				size = { width = 680 height = 800 }
 				slotsize = { width = 70 height = 70 }
@@ -90,7 +90,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "solid_core_nuclear_thermal_rocket_tree"
+				name = "space_nuclear_thermal_rocket_i_tree"
 				position = { x = 1580 y = 107 }
 				size = { width = 680 height = 800 }
 				slotsize = { width = 70 height = 70 }
@@ -98,7 +98,7 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "fission_fragment_tree"
+				name = "space_fission_fragment_i_tree"
 				position = { x = 1840 y = 107 }
 				size = { width = 680 height = 800 }
 				slotsize = { width = 70 height = 70 }
