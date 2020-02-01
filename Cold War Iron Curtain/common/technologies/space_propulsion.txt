@@ -387,9 +387,6 @@ technologies = {
 			leads_to_tech = space_nuclear_thermal_rocket_ii
 			research_cost_coeff = 1
 		}
-		dependencies = {
-			nuclear_reactor62 = 1
-		}
 	}
 
 	space_nuclear_thermal_rocket_ii = {
@@ -525,9 +522,6 @@ technologies = {
 		path = {
 			leads_to_tech = space_fission_fragment_ii
 			research_cost_coeff = 1
-		}
-		dependencies = {
-			fission1966 = 1
 		}
 	}
 

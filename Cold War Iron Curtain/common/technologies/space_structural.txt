@@ -1,0 +1,453 @@
+technologies = {
+	space_structural_components_i = {
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 0 }
+		}
+		categories = {
+			space_structural_components
+		}
+		path = {
+			leads_to_tech = space_structural_components_ii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_structural_components_ii = {
+		research_cost = 1
+		start_year = 1948
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			space_structural_components
+		}
+		path = {
+			leads_to_tech = space_structural_components_iii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_structural_components_iii = {
+		research_cost = 1
+		start_year = 1956
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 14 }
+		}
+		categories = {
+			space_structural_components
+		}
+		path = {
+			leads_to_tech = space_structural_components_iv
+			research_cost_coeff = 1
+		}
+	}
+
+	space_structural_components_iv = {
+		research_cost = 1
+		start_year = 1964
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 22 }
+		}
+		categories = {
+			space_structural_components
+		}
+		path = {
+			leads_to_tech = space_structural_components_v
+			research_cost_coeff = 1
+		}
+	}
+
+	space_structural_components_v = {
+		research_cost = 1
+		start_year = 1972
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 22 }
+		}
+		categories = {
+			space_structural_components
+		}
+		path = {
+			leads_to_tech = space_structural_components_vi
+			research_cost_coeff = 1
+		}
+	}
+
+	space_structural_components_vi = {
+		research_cost = 1
+		start_year = 1982
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 22 }
+		}
+		categories = {
+			space_structural_components
+		}
+		path = {
+			leads_to_tech = space_structural_components_vii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_structural_components_vii = {
+		research_cost = 1
+		start_year = 1996
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 36 }
+		}
+		categories = {
+			space_structural_components
+		}
+		path = {
+			leads_to_tech = space_structural_components_viii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_structural_components_viii = {
+		research_cost = 1
+		start_year = 2004
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 44 }
+		}
+		categories = {
+			space_structural_components
+		}
+		path = {
+			leads_to_tech = space_structural_components_ix
+			research_cost_coeff = 1
+		}
+	}
+
+	space_structural_components_ix = {
+		research_cost = 1
+		start_year = 2012
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 44 }
+		}
+		categories = {
+			space_structural_components
+		}
+		path = {
+			leads_to_tech = space_structural_components_x
+			research_cost_coeff = 1
+		}
+	}
+
+	space_structural_components_x = {
+		research_cost = 1
+		start_year = 2020
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 44 }
+		}
+		categories = {
+			space_structural_components
+		}
+	}
+
+	space_pressure_vessels_i = {
+		research_cost = 1
+		start_year = 1946
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 4 }
+		}
+		categories = {
+			space_pressure_vessels
+		}
+		path = {
+			leads_to_tech = space_pressure_vessels_ii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_pressure_vessels_ii = {
+		research_cost = 1
+		start_year = 1952
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 10 }
+		}
+		categories = {
+			space_pressure_vessels
+		}
+		path = {
+			leads_to_tech = space_pressure_vessels_iii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_pressure_vessels_iii = {
+		research_cost = 1
+		start_year = 1960
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 18 }
+		}
+		categories = {
+			space_pressure_vessels
+		}
+		path = {
+			leads_to_tech = space_pressure_vessels_iv
+			research_cost_coeff = 1
+		}
+	}
+
+	space_pressure_vessels_iv = {
+		research_cost = 1
+		start_year = 1968
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 16 }
+		}
+		categories = {
+			space_pressure_vessels
+		}
+		path = {
+			leads_to_tech = space_pressure_vessels_v
+			research_cost_coeff = 1
+		}
+	}
+
+	space_pressure_vessels_v = {
+		research_cost = 1
+		start_year = 1976
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 34 }
+		}
+		categories = {
+			space_pressure_vessels
+		}
+		path = {
+			leads_to_tech = space_pressure_vessels_vi
+			research_cost_coeff = 1
+		}
+	}
+
+	space_pressure_vessels_vi = {
+		research_cost = 1
+		start_year = 1990
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 48 }
+		}
+		categories = {
+			space_pressure_vessels
+		}
+	}
+
+	space_fuel_tanks_i = {
+		research_cost = 1
+		start_year = 1942
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 0 }
+		}
+		categories = {
+			space_fuel_tanks
+		}
+		path = {
+			leads_to_tech = space_fuel_tanks_ii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuel_tanks_ii = {
+		research_cost = 1
+		start_year = 1948
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 6 }
+		}
+		categories = {
+			space_fuel_tanks
+		}
+		path = {
+			leads_to_tech = space_fuel_tanks_iii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuel_tanks_iii = {
+		research_cost = 1
+		start_year = 1956
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 14 }
+		}
+		categories = {
+			space_fuel_tanks
+		}
+		path = {
+			leads_to_tech = space_fuel_tanks_iv
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuel_tanks_iv = {
+		research_cost = 1
+		start_year = 1964
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 22 }
+		}
+		categories = {
+			space_fuel_tanks
+		}
+		path = {
+			leads_to_tech = space_fuel_tanks_v
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuel_tanks_v = {
+		research_cost = 1
+		start_year = 1972
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 30 }
+		}
+		categories = {
+			space_fuel_tanks
+		}
+		path = {
+			leads_to_tech = space_fuel_tanks_vi
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuel_tanks_vi = {
+		research_cost = 1
+		start_year = 1982
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 40 }
+		}
+		categories = {
+			space_fuel_tanks
+		}
+		path = {
+			leads_to_tech = space_fuel_tanks_vii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuel_tanks_vii = {
+		research_cost = 1
+		start_year = 1996
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 54 }
+		}
+		categories = {
+			space_fuel_tanks
+		}
+		path = {
+			leads_to_tech = space_fuel_tanks_viii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuel_tanks_viii = {
+		research_cost = 1
+		start_year = 2004
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 62 }
+		}
+		categories = {
+			space_fuel_tanks
+		}
+		path = {
+			leads_to_tech = space_fuel_tanks_ix
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuel_tanks_ix = {
+		research_cost = 1
+		start_year = 2012
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 70 }
+		}
+		categories = {
+			space_fuel_tanks
+		}
+		path = {
+			leads_to_tech = space_fuel_tanks_x
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuel_tanks_x = {
+		research_cost = 1
+		start_year = 2020
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 78 }
+		}
+		categories = {
+			space_fuel_tanks
+		}
+		path = {
+			leads_to_tech = space_structural_components_x
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuels_i = {
+		research_cost = 1
+		start_year = 1944
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 2 }
+		}
+		categories = {
+			space_fuels
+		}
+		path = {
+			leads_to_tech = space_fuels_ii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuels_ii = {
+		research_cost = 1
+		start_year = 1958
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 14 }
+		}
+		categories = {
+			space_fuels
+		}
+		path = {
+			leads_to_tech = space_fuels_iii
+			research_cost_coeff = 1
+		}
+	}
+
+	space_fuels_iii = {
+		research_cost = 1
+		start_year = 2006
+		folder = {
+			name = space_structural_folder
+			position = { x = 0 y = 64 }
+		}
+		categories = {
+			space_fuels
+		}
+	}
+}
