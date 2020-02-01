@@ -377,22 +377,6 @@ technologies = {
 
 	space_fuel_tanks_ix = {
 		research_cost = 1
-		start_year = 2012
-		folder = {
-			name = space_structural_folder
-			position = { x = 0 y = 70 }
-		}
-		categories = {
-			space_fuel_tanks
-		}
-		path = {
-			leads_to_tech = space_fuel_tanks_x
-			research_cost_coeff = 1
-		}
-	}
-
-	space_fuel_tanks_x = {
-		research_cost = 1
 		start_year = 2020
 		folder = {
 			name = space_structural_folder
