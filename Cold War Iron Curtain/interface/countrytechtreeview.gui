@@ -35,6 +35,550 @@ guiTypes = {
 		}
 
 		containerWindowType = {
+			name = "space_structural_folder"
+			position = { x = 0 y = 47 }
+			size = { width = 100%% height = 100%% }
+			clipping = yes
+			margin = { top = 21 left = 23 bottom = 22 right = 25 }
+			drag_scroll = { left middle }
+			verticalScrollbar = "right_vertical_slider"
+			horizontalScrollbar = "bottom_horizontal_slider"
+
+			background = {
+				name = "Background"
+				quadTextureSprite ="GFX_tiled_window_2b_border_crt"
+			}
+
+			gridboxtype = {
+				name = "space_structural_components_i_tree"
+				position = { x = 280 y = 107 }
+				size = { width = 680 height = 800 }
+				slotsize = { width = 70 height = 70}
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "space_fuel_tanks_i_tree"
+				position = { x = 800 y = 107 }
+				size = { width = 680 height = 800 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+
+			containerWindowType = {
+				name = "space_structural_year"
+				position = {x = 20 y = 130 }
+				size = { width = 130 height = 100% }
+				orientation = upper_left
+				instantTextBoxType = {
+					name = "space_structural_year1"
+					position = { x = 0 y = 0 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1944"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+	
+				instantTextBoxType = {
+					name = "space_structural_year2"
+					position = { x = 0 y = 140 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1946"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year3"
+					position = { x = 0 y = 280 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1948"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year4"
+					position = { x = 0 y = 420 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1950"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year5"
+					position = { x = 0 y = 560 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1952"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year6"
+					position = { x = 0 y = 700 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1954"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year7"
+					position = { x = 0 y = 840 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1956"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year8"
+					position = { x = 0 y = 980 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1958"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year9"
+					position = { x = 0 y = 1120 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1960"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year10"
+					position = { x = 0 y = 1260 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1962"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year11"
+					position = { x = 0 y = 1400 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1964"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year12"
+					position = { x = 0 y = 1540 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1966"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year13"
+					position = { x = 0 y = 1680 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1968"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year14"
+					position = { x = 0 y = 1820 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1970"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year15"
+					position = { x = 0 y = 1960 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1972"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year16"
+					position = { x = 0 y = 2100 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1974"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year17"
+					position = { x = 0 y = 2240 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1976"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year18"
+					position = { x = 0 y = 2380 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1978"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year19"
+					position = { x = 0 y = 2520 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1980"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year20"
+					position = { x = 0 y = 2660 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1982"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year21"
+					position = { x = 0 y = 2800 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1984"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year22"
+					position = { x = 0 y = 2940 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1986"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year23"
+					position = { x = 0 y = 3080 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1988"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year24"
+					position = { x = 0 y = 3220 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1990"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year25"
+					position = { x = 0 y = 3360 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1992"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year26"
+					position = { x = 0 y = 3500 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1994"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year27"
+					position = { x = 0 y = 3640 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1996"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year28"
+					position = { x = 0 y = 3780 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "1998"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year29"
+					position = { x = 0 y = 3920 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2000"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year30"
+					position = { x = 0 y = 4060 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2002"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year31"
+					position = { x = 0 y = 4200 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2004"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+				
+				instantTextBoxType = {
+					name = "space_structural_year32"
+					position = { x = 0 y = 4340 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2006"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year33"
+					position = { x = 0 y = 4480 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2008"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year34"
+					position = { x = 0 y = 4620 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2010"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year35"
+					position = { x = 0 y = 4760 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2012"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year36"
+					position = { x = 0 y = 4900 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2014"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year37"
+					position = { x = 0 y = 5040 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2016"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year38"
+					position = { x = 0 y = 5180 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2018"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
+					name = "space_structural_year39"
+					position = { x = 0 y = 5320 }
+					textureFile = ""
+					font = "hoi_36header"
+					borderSize = {x = 0 y = 4}
+					text = "2020"
+					maxWidth = 600
+					maxHeight = 62
+					format = left
+					Orientation = "UPPER_LEFT"
+				}
+			}
+		}
+
+		containerWindowType = {
 			name = "space_propulsion_folder"
 			position = { x = 0 y = 47 }
 			size = {width = 100%% height = 100%% }
@@ -11589,6 +12133,21 @@ guiTypes = {
 				hide = yes
 				alwaystransparent = yes
 			}
+
+			buttonType = {
+				position = { x = 1590 y = 0 }
+				name = "space_structural_folder_tab"
+				quadTextureSprite = "GFX_space_structural_folder_tab"
+				frame = 1
+				clicksound = click_default
+			}
+			iconType = {
+				name = "highlight_space_structural_folder"
+				position = { x = 1590 y = 0 }
+				quadTextureSprite = "GFX_tutorial_research_folder_icon_glow"
+				hide = yes
+				alwaystransparent = yes
+			}
 		}
 
 		buttonType = {
@@ -12911,13 +13470,117 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "techtree_space_propulsion_folder_item"
-		position = { x=-55 y=35 }
+		position = { x = -55 y = 35 }
 		size = { width = 182 height = 84 }
 		clipping = no
 
 		background = {
 			name = "Background"
 			quadTextureSprite ="GFX_technology_unavailable_item_bg"
+		}
+
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 10 y = 65 }
+			textureFile = ""
+			font = "bombardier_20_caps"
+			borderSize = {x = 0 y = 0}
+			text = ""
+			maxWidth = 166
+			maxHeight = 20
+			fixedsize = no
+			format = center
+		}
+
+		iconType = {
+			name = "Icon"
+			position = { x=1 y=1 }
+			spriteType = "GFX_technology_medium"
+			centerposition = no
+			alwaystransparent = yes
+		}
+		iconType = {
+			name = "bonus_icon"
+			position = { x=3 y=-22 }
+			spriteType = "GFX_tech_bonus"
+		}
+		instantTextBoxType = {
+			name = "bonus"
+			position = { x = 17 y = -22 }
+			textureFile = ""
+			font = "hoi_16mbs"
+			borderSize = {x = 4 y = 4}
+			text = "lol boat"
+			maxWidth = 50
+			maxHeight = 20
+			format = right
+		}
+		containerWindowType = {
+			name = "sub_technology_slot_0"
+			position = { x=141 y=1 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+			
+			iconType = {
+				name = "picture"
+				position = { x=2 y=2 }
+				spriteType = "GFX_subtech_rocket"
+				alwaystransparent = yes
+			}
+		}		
+		containerWindowType = {
+			name = "sub_technology_slot_1"
+			position = { x=141 y=28 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+			
+			iconType = {
+				name = "picture"
+				position = { x=1 y=2 }
+				spriteType = "GFX_subtech_art"
+				alwaystransparent = yes
+			}
+		}
+
+		containerWindowType = {
+			name = "sub_technology_slot_2"
+			position = { x=141 y=55 }
+			size = { width = 35 height = 26 }
+			clipping = no
+			
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+		
+			iconType = {
+				name = "picture"
+				position = { x=1 y=2 }
+				spriteType = "GFX_subtech_aa"
+				alwaystransparent = yes
+			}
+		}
+	}
+
+	containerWindowType = {
+		name = "techtree_space_structural_folder_item"
+		position = { x = 0 y = 5 }
+		size = { width = 182 height = 84 }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite = "GFX_technology_unavailable_item_bg"
 		}
 
 		instantTextBoxType = {

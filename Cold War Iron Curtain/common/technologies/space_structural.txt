@@ -13,6 +13,10 @@ technologies = {
 			leads_to_tech = space_structural_components_ii
 			research_cost_coeff = 1
 		}
+		path = { 
+			leads_to_tech = space_pressure_vessels_i
+			research_cost_coeff = 1
+		}
 	}
 
 	space_structural_components_ii = {
@@ -259,6 +263,10 @@ technologies = {
 		}
 		path = {
 			leads_to_tech = space_fuel_tanks_ii
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = space_pressure_vessels_i
 			research_cost_coeff = 1
 		}
 	}
