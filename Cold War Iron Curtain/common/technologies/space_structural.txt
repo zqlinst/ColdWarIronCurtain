@@ -164,7 +164,7 @@ technologies = {
 		start_year = 1946
 		folder = {
 			name = space_structural_folder
-			position = { x = 0 y = 4 }
+			position = { x = 3 y = 4 }
 		}
 		categories = {
 			space_pressure_vessels
@@ -180,7 +180,7 @@ technologies = {
 		start_year = 1952
 		folder = {
 			name = space_structural_folder
-			position = { x = 0 y = 10 }
+			position = { x = 3 y = 10 }
 		}
 		categories = {
 			space_pressure_vessels
@@ -196,7 +196,7 @@ technologies = {
 		start_year = 1960
 		folder = {
 			name = space_structural_folder
-			position = { x = 0 y = 18 }
+			position = { x = 3 y = 18 }
 		}
 		categories = {
 			space_pressure_vessels
@@ -212,7 +212,7 @@ technologies = {
 		start_year = 1968
 		folder = {
 			name = space_structural_folder
-			position = { x = 0 y = 16 }
+			position = { x = 3 y = 16 }
 		}
 		categories = {
 			space_pressure_vessels
@@ -228,7 +228,7 @@ technologies = {
 		start_year = 1976
 		folder = {
 			name = space_structural_folder
-			position = { x = 0 y = 34 }
+			position = { x = 3 y = 34 }
 		}
 		categories = {
 			space_pressure_vessels
@@ -244,7 +244,7 @@ technologies = {
 		start_year = 1990
 		folder = {
 			name = space_structural_folder
-			position = { x = 0 y = 48 }
+			position = { x = 3 y = 48 }
 		}
 		categories = {
 			space_pressure_vessels
