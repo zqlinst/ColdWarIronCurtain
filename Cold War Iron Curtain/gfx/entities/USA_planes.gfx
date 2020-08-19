@@ -1,0 +1,225 @@
+objectTypes = {
+
+
+
+	pdxmesh = {
+		name = "USA_fighter_mesh"
+		file = "gfx/models/units/planes/USA_fighter_3_P51D.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}	
+	
+		pdxmesh = {
+		name = "USA_CAS_mesh"
+		file = "gfx/models/units/planes/USA_heavy_fighter_2_P47D.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "USA_cv_fighter_mesh"
+		file = "gfx/models/units/planes/USA_fighter_cv3_f4u.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}	
+	
+		pdxmesh = {
+		name = "USA_cv_CAS_mesh"
+		file = "gfx/models/units/planes/USA_CAS_CV3_SB2C.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+		pdxmesh = {
+		name = "USA_tac_bomber_2_mesh"
+		file = "gfx/models/units/planes/USA_tac_bomber_2_b25.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "USA_tac_bomber_3_mesh"
+		file = "gfx/models/units/planes/USA_tac_bomber_3_B26.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "USA_NAV_1_mesh"
+		file = "gfx/models/units/planes/USA_NAV_2_PV1.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "USA_NAV_2_mesh"
+		file = "gfx/models/units/planes/USA_NAV_3_PB4Y.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		
+	}
+		
+	
+	########################## jet ##################################
+		pdxmesh = {
+		name = "USA_fighter_jet1_mesh"
+		file = "gfx/models/units/planes/USA_fighter_jet1_p80.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}
+	
+		pdxmesh = {
+		name = "USA_fighter_jet2_mesh"
+		file = "gfx/models/units/planes/USA_fighter_jet2_f86.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "USA_fighter_jet3_mesh"
+		file = "gfx/models/units/planes/F5F.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "F4M_mesh"
+		file = "gfx/models/units/planes/USA_fighter_f4.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "F14_mesh"
+		file = "gfx/models/units/planes/USA_interceptor_f14.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "F15_mesh"
+		file = "gfx/models/units/planes/USA_strike_fighter_f15.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+
+	}
+	
+	pdxmesh = {
+		name = "F16_mesh"
+		file = "gfx/models/units/planes/F16.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+
+	}
+	
+	pdxmesh = {
+		name = "F35_mesh"
+		file = "gfx/models/units/planes/F35.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "F22_mesh"
+		file = "gfx/models/units/planes/USA_fighter_f22.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "F18A_mesh"
+		file = "gfx/models/units/planes/F18A.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "F18B_mesh"
+		file = "gfx/models/units/planes/F18B.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "F18C_mesh"
+		file = "gfx/models/units/planes/F18C.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "USA_jump_jet_equipment_mesh"
+		file = "gfx/models/units/planes/USA_rocket_interceptor_2_XF85.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "f35A_mesh"
+		file = "gfx/models/units/planes/f35A.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	
+	pdxmesh = {
+		name = "USA_jet_CAS_equipment_1_mesh"
+		file = "gfx/models/units/planes/USA_jet_tac_1_XB46.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "USA_jet_CAS_equipment_2_mesh"
+		file = "gfx/models/units/planes/USA_jet_tac_2_XB51.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	
+	
+	pdxmesh = {
+		name = "F111_mesh"
+		file = "gfx/models/units/planes/f111.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+
+	}
+	
+	pdxmesh = {
+		name = "strat0_mesh"
+		file = "gfx/models/units/planes/USA_Start_bomber_3_b29.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "B47_mesh"
+		file = "gfx/models/units/planes/USA_Start_bomber_jet_B47.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "B52_mesh"
+		file = "gfx/models/units/planes/B52.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "B2_mesh"
+		file = "gfx/models/units/planes/b2.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "B1_mesh"
+		file = "gfx/models/units/planes/b1.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "F117_mesh"
+		file = "gfx/models/units/planes/f117.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	
+	pdxmesh = {
+		name = "USA_transport_plane_equipment_1_mesh"
+		file = "gfx/models/units/planes/USA_transport_plane_equipment_C47.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "TransUSA_mesh"
+		file = "gfx/models/units/planes/Trans.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+
+	}
+	
+}

@@ -1,0 +1,218 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "CZE_fighter_mesh"
+		file = "gfx/models/units/planes/SOV_fighter_3_yak3.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "CZE_fighter.dds"
+		}
+	}	
+	
+		pdxmesh = {
+		name = "CZE_CAS_mesh"
+		file = "gfx/models/units/planes/SOV_CAS_2_il2.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "CZE_il2.dds"
+		}
+	}
+	
+		pdxmesh = {
+		name = "CZE_bomber_mesh"
+		file = "gfx/models/units/planes/SOV_heavy_fighter_1_pe2.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "CZE_bomber.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "CZE_NAV_1_mesh"
+		file = "gfx/models/units/planes/SOV_NAV_1_DB3TP.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "CZE_NAV.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "CZE_NAV_2_mesh"
+		file = "gfx/models/units/planes/antisubmarine.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "antisubmarineCZE.dds"
+		}
+	}
+		
+	
+	########################## jet ##################################
+		
+		pdxmesh = {
+		name = "CZE_fighter_jet1_mesh"
+		file = "gfx/models/units/planes/SOV_rocket_interceptor_3_Yak23.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" } 
+		
+		meshsettings = {
+			texture_diffuse = "Yak23CZE.dds"
+		}
+	}
+	
+		pdxmesh = {
+		name = "CZE_fighter_jet2_mesh"
+		file = "gfx/models/units/planes/SOV_fighter_jet2_MIG15Bis.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" } 
+		
+		meshsettings = {
+			texture_diffuse = "MIG15CZE.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "CZE_fighter_jet3_mesh"
+		file = "gfx/models/units/planes/mig19.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "mig19_CZE.dds"
+	}
+}
+	
+	pdxmesh = {
+		name = "MIG21CZE_mesh"
+		file = "gfx/models/units/planes/mig21.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "mig21_CZE.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "MIG23CZE_mesh"
+		file = "gfx/models/units/planes/mig23.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "mig23_CZE.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "MIG29CZE_mesh"
+		file = "gfx/models/units/planes/mig29.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "mig29_CZE.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "su27CZE_mesh"
+		file = "gfx/models/units/planes/SU27M.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "su27_CZE.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "su25CZE_mesh"
+		file = "gfx/models/units/planes/su25.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "su25CZE.dds"
+		}
+	}
+	
+	
+	pdxmesh = {
+		name = "VVCZE_mesh"
+		file = "gfx/models/units/planes/mig21.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "mig21_CZE.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "TBCZE_mesh"
+		file = "gfx/models/units/planes/SOV_heavy_fighter_1_pe2.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "CZE_bomber.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "il28CZE_mesh"
+		file = "gfx/models/units/planes/SOV_jet_tac_2_IL28.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "IL28CZE.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "CZEstrat1_mesh"
+		file = "gfx/models/units/planes/SOV_tac_bomber_1_SB2.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "CZEstrat1.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "m4CZE_mesh"
+		file = "gfx/models/units/planes/SOV_Start_bomber_jet_m4.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "m4CZE.dds"
+		}
+	}
+	
+	
+	
+	pdxmesh = {
+		name = "CZE_transport_plane_equipment_1_mesh" 
+		file = "gfx/models/units/planes/SOV_transport.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "CZE_transport.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "il76CZE_mesh"
+		file = "gfx/models/units/planes/il76.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "il76CZE.dds"
+		}
+	}
+	
+	
+	
+	pdxmesh = {
+	name = "CZE_attack_helicopter_mesh"
+	file = "gfx/models/units/planes/SOV_attack_helicopter_m24.mesh"
+	animation = { id = "idle" type = "SOV_attack_helicopter_m24_idle_animation" }		
+		animation = { id = "attack" type = "SOV_attack_helicopter_m24_idle_animation" }
+		animation = { id = "move" type = "SOV_attack_helicopter_m24_idle_animation" }
+
+        meshsettings = {
+			texture_diffuse = "mi24CZE.dds"
+		}		
+	
+		}
+		
+}

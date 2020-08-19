@@ -1,0 +1,171 @@
+objectTypes = {
+
+
+
+	pdxmesh = {
+		name = "WGR_fighter_mesh"
+		file = "gfx/models/units/planes/GER_fighter_3_ta152.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}	
+	
+		pdxmesh = {
+		name = "WGR_CAS_mesh"
+		file = "gfx/models/units/planes/GER_CAS_3_HS129.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "WGR_cv_fighter_mesh"
+		file = "gfx/models/units/planes/GER_fighter_cv3_bv155.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+	}	
+	
+		pdxmesh = {
+		name = "WGR_cv_CAS_mesh"
+		file = "gfx/models/units/planes/GER_CAS_3_HS129.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+		pdxmesh = {
+		name = "WGR_tac_bomber_2_mesh"
+		file = "gfx/models/units/planes/GER_tac_bomber_3_Ju188.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "WGR_tac_bomber_3_mesh"
+		file = "gfx/models/units/planes/GER_tac_bomber_3_Ju188.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "WGR_NAV_1_mesh"
+		file = "gfx/models/units/planes/GER_plane_Navy_1_Ju86E.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "WGR_NAV_2_mesh"
+		file = "gfx/models/units/planes/GER_plane_Navy_3_BV238.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		
+	}
+		
+	
+	########################## jet ##################################
+		pdxmesh = {
+		name = "WGR_fighter_jet1_mesh"
+		file = "gfx/models/units/planes/USA_fighter_jet1_p80.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "p80_WGR.dds"
+		}
+	}
+	
+		pdxmesh = {
+		name = "WGR_fighter_jet2_mesh"
+		file = "gfx/models/units/planes/USA_fighter_jet2_f86.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "WRG_f86.dds"
+		}
+		
+	}
+	
+	pdxmesh = {
+		name = "WGR_fighter_jet3_mesh"
+		file = "gfx/models/units/planes/F5F.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+		meshsettings = {
+			texture_diffuse = "WGR_F5F.dds"
+		}
+		
+	}
+	
+
+	
+	pdxmesh = {
+		name = "WGR_Evrofaiter_mesh"
+		file = "gfx/models/units/planes/GERevr.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	pdxmesh = {
+		name = "WGR_stels_mesh"
+		file = "gfx/models/units/planes/FCAS.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+
+	}
+	
+		pdxmesh = {
+		name = "WGR_F4_mesh"
+		file = "gfx/models/units/planes/F4_WGR.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+
+		
+	}
+	
+	
+	
+	pdxmesh = {
+		name = "WGR_jump_jet_equipment_mesh"
+		file = "gfx/models/units/planes/GER_plane_jet2_ARADOE555.mesh"
+		animation = { id = "idle" type = "fighter_default_idle_animation" }
+		
+	}
+	
+	
+	
+	
+	pdxmesh = {
+		name = "WGR_jet_CAS_equipment_1_mesh"
+		file = "gfx/models/units/planes/USA_jet_tac_1_XB46.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "WGR_XB46.dds"
+		}
+	}
+	
+	
+	pdxmesh = {
+		name = "tornado_mesh"
+		file = "gfx/models/units/planes/GERtorn.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+
+	}
+	
+	pdxmesh = {
+		name = "stratWGR_mesh"
+		file = "gfx/models/units/planes/GER_Start_bomber_2_he117.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+	}
+	
+	pdxmesh = {
+		name = "WGR_B52_mesh"
+		file = "gfx/models/units/planes/B52.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "WGR_B52.dds"
+		}
+	}
+	
+	
+	pdxmesh = {
+		name = "WGR_transport_plane_equipment_1_mesh"
+		file = "gfx/models/units/planes/GER_transport_Ju52.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+		meshsettings = {
+			texture_diffuse = "WGR_transport_plane.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "TransWGR_mesh"
+		file = "gfx/models/units/planes/TransWGR.mesh"
+		animation = { id = "idle" type = "bomber_default_idle_animation" }
+
+	}
+	
+}

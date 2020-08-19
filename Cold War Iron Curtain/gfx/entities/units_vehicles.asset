@@ -1125,7 +1125,13 @@
 		clone = "air_cavalry_entity"
 	}
 	entity = {
-		name = "USA_air_cavalry_entity"
+		name = "USA_air_cavalry_1_entity"
+		clone = "air_cavalry_entity"
+	}
+	
+	entity = {
+		name = "USA_air_cavalry_2_entity"
+		pdxmesh = "ch47_mesh"
 		clone = "air_cavalry_entity"
 	}
 	entity = {
@@ -1143,10 +1149,22 @@
 
 	}
 	entity = {
-		name = "SOV_air_cavalry_entity"
+		name = "SOV_air_cavalry_1_entity"
 		pdxmesh = "mi4_mesh"
 		clone = "air_cavalry_entity"
 
-	}	
+	}
+	
+	
+	entity = {
+		name = "SOV_air_cavalry_2_entity"
+		pdxmesh = "mi8_mesh"
+		clone = "air_cavalry_entity"
+
+	}
+	
+	
+	
+	
 
 

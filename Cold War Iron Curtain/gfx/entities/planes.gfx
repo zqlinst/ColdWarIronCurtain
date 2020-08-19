@@ -299,6 +299,7 @@ objectTypes = {
 
 		scale = 0.015			
 	}	
+	
 
 	#Soviet Generics
 	pdxmesh = {
