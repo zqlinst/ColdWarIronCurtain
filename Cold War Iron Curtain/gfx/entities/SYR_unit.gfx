@@ -104,7 +104,7 @@ objectTypes = {
 objectTypes = {	
 	pdxmesh = {
 		name = "SYR_paratrooper_mesh"
-		file = "gfx/models/units/SYR_paratrooper.mesh"
+		file = "gfx/models/units/SYR_infantry_1.mesh"
 
 		animation = { id = "idle"			type = "GER_infantry_mg_idle_animation" }
 		animation = { id = "attack"			type = "GER_infantry_mg_attack_animation" }

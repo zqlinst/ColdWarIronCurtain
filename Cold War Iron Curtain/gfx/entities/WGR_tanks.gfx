@@ -4,9 +4,9 @@ pdxmesh = {
 		name = "WGRmodernarmor_mesh"
 		file = "gfx/models/Utoft_Models/tanks/WGRmodernarmor.mesh"
 		
-		animation = { id = "idle"			type = "GER_modern_armor_idle_animation" }
-		animation = { id = "move"			type = "GER_modern_armor_moving_animation" }
-		animation = { id = "attack"			type = "GER_modern_armor_attack_animation" }	
+		animation = { id = "idle"			type = "generic_tank_medium_idle_animation" }
+		animation = { id = "move"			type = "generic_tank_medium_moving_animation" }
+		animation = { id = "attack"			type = "generic_tank_medium_attack_animation" }	
 		
 	}
 	
