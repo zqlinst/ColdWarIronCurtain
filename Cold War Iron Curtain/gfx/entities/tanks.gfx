@@ -110,17 +110,7 @@ objectTypes = {
 	
 
 
-	pdxmesh = {
-		name = "GER_tank_light_mesh"
-		file = "gfx/models/units/tanks/GER_tank_light.mesh"
 
-		animation = { id = "attack"			type = "GER_tank_light_attack_animation" }
-		animation = { id = "idle"			type = "GER_tank_light_idle_animation" }
-		animation = { id = "move"			type = "GER_tank_light_moving_animation" }
-		
-		scale = 0.6
-		
-	}	
 	
 	pdxmesh = {
 		name = "GER_tank_medium_mesh"

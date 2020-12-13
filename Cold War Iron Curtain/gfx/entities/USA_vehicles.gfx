@@ -135,11 +135,6 @@ objectTypes = {
 	}
 	
 
-	pdxmesh = {
-		name = "USA_airborne_vec2_mesh"
-		file = "gfx/models/units/vehicles/USA_tank_heavy_m551.mesh"
 
-		scale = 0.85
-	}
 	
 }

@@ -40,15 +40,7 @@ objectTypes = {
 		}
 	}
 	
-	pdxmesh = {
-		name = "BUL_NAV_2_mesh"
-		file = "gfx/models/units/planes/antisubmarine.mesh"
-		animation = { id = "idle" type = "bomber_default_idle_animation" }
-		
-		meshsettings = {
-			texture_diffuse = "antisubmarineBUL.dds"
-		}
-	}
+
 		
 	
 	########################## jet ##################################

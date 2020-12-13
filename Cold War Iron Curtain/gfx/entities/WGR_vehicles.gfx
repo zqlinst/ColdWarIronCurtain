@@ -28,16 +28,7 @@ objectTypes = {
 	}
 	
 
-	pdxmesh = {
-		name = "WGR_armored_vec3_mesh"
-		file = "gfx/models/units/vehicles/marder_ger.mesh"
-		
-		# animation = { id = "idle"			type = "marder_idle_animation" }
-		# animation = { id = "move"			type = "marder_move_animation" }
-		# animation = { id = "attack"		type = "marder_attack_animation" }
-		
-		scale = 0.36
-	}
+
 	
 
 	pdxmesh = {
@@ -53,24 +44,9 @@ objectTypes = {
 	
 	
 
-	pdxmesh = {
-		name = "WGR_mechanized_vec2_mesh"
-		file = "gfx/models/units/vehicles/GER_tank_light.mesh"
-		
-		scale = 1.1
-	}
 	
 
-	pdxmesh = {
-		name = "WGR_mechanized_vec3_mesh"
-		file = "gfx/models/units/vehicles/boxer_ger.mesh"
-		
-		# animation = { id = "idle"			type = "boxer_idle_animation" }
-		# animation = { id = "move"			type = "boxer_move_animation" }
-		# animation = { id = "attack"		type = "boxer_attack_animation" }
 
-		scale = 0.42
-	}
 	
 	pdxmesh = {
 		name = "WGR_motorized_vec0_mesh"
@@ -144,11 +120,6 @@ objectTypes = {
 	}
 	
 
-	pdxmesh = {
-		name = "WGR_airborne_vec2_mesh"
-		file = "gfx/models/units/vehicles/dingo_atf_ger.mesh"
 
-		scale = 0.36
-	}
 	
 }

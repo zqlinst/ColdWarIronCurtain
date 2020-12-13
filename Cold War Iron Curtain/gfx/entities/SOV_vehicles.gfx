@@ -13,29 +13,6 @@ objectTypes = {
 
 	}	
 	
-	# BMP-2 
-	pdxmesh = {
-		name = "SOV_armored_vec2_mesh"
-		file = "gfx/models/units/vehicles/bmp2SIB.mesh"
-		
-		 #animation = { id = "idle"			type = "bmp2_idle_animation" }
-		 #animation = { id = "move"			type = "bmp2_move_animation" }
-		 #animation = { id = "attack"		type = "bmp2_attack_animation" }
-		
-		scale = 0.8
-	}
-	
-	# BMP-3 
-	pdxmesh = {
-		name = "SOV_armored_vec3_mesh"
-		file = "gfx/models/units/vehicles/bmp3.mesh"
-		
-		animation = { id = "idle"			type = "bmp3_idle_animation" }
-		animation = { id = "move"			type = "bmp3_move_animation" }
-		animation = { id = "attack"			type = "bmp3_attack_animation" }	
-		
-		scale = 0.019
-	}
 	
 	# BTR-152
 	pdxmesh = {
@@ -150,27 +127,9 @@ objectTypes = {
 		scale = 0.5
 	}
 	
-	# BTR-82_marine
-	pdxmesh = {
-		name = "SOV_marine_vec3_mesh"
-		file = "gfx/models/units/vehicles/btrkaz.mesh"
-					
-		# animation = { id = "idle"			type = "btr82_idle_animation" }
-		# animation = { id = "move"			type = "btr82_move_animation" }
-		# animation = { id = "attack"		type = "btr82_attack_animation" }
 
-		scale = 1.0
-	}
 	
-	pdxmesh = {
-		name = "SOV_marine_vec4_mesh"
-		file = "gfx/models/Utoft_Models/tanks/t84.mesh"
-					
-		# animation = { id = "idle"			type = "t84_idle_animation" }
-		# animation = { id = "move"			type = "t84_moving_animation" }
-		# animation = { id = "attack"			type = "t84_attack_animation" }
-		scale = 0.45
-	}
+
 	
 	# BTR-152desant
 	pdxmesh = {
@@ -189,28 +148,8 @@ objectTypes = {
 	}
 	
 		
-	# BRDM-2
-	pdxmesh = {
-		name = "SOV_airborne_vec2_mesh"
-		file = "gfx/models/units/vehicles/brdm2.mesh"
-		
-		# animation = { id = "idle"			type = "brdm2_idle_animation" }
-		# animation = { id = "move"			type = "brdm2_move_animation" }
-		# animation = { id = "attack"		type = "brdm2_attack_animation" }
 
-		scale = 0.29
-	}
 	
-	# GAZ Tigr
-	pdxmesh = {
-		name = "SOV_airborne_vec3_mesh"
-		file = "gfx/models/units/vehicles/gaz_tigr.mesh"
-		
-		# animation = { id = "idle"			type = "gaz_tigr_idle_animation" }
-		# animation = { id = "move"			type = "gaz_tigr_move_animation" }
-		# animation = { id = "attack"		type = "gaz_tigr_attack_animation" }
 
-		scale = 0.3
-	}
 	
 }
